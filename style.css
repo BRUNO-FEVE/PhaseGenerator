@@ -1,3 +1,19 @@
-.hidden {
-  display: none;
+body {
+  background-color: #ecfffb;
+  color: #1e6262;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+
+#randomText {
+  font-size: 30px;
+}
+
+#generateButton {
+  background-color: #2d767f;
+  color: #b4f1f1;
+  width: 100px;
+  height: 40px;
+  border-radius: 12%;
+  border-color: #2d767f;
 }
