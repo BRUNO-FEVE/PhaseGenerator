@@ -1,14 +1,38 @@
+/* putting the content on the center of the screen,
+ and setting come design choices */
 body {
+  margin: 0;
+  padding: 0;
   background-color: #ecfffb;
   color: #1e6262;
   text-align: center;
   font-family: Georgia, serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
+/* setting the background of the box */
+div {
+  background-color: #b2f0e2;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+/* setting "animations" of the box */
+div:hover {
+  background-color: #9cebd8;
+  transition-duration: 0.4s;
+  padding: 20px;
+}
+
+/* size of the generated text */
 #randomText {
   font-size: 30px;
 }
 
+/* design settings for the button */
 #generateButton {
   background-color: #2d767f;
   color: #b4f1f1;
@@ -16,4 +40,11 @@ body {
   height: 40px;
   border-radius: 12%;
   border-color: #2d767f;
+}
+
+/* buttons "animations" */
+#generateButton:hover {
+  color: #2d767f;
+  background-color: #b4f1f1;
+  transition-duration: 0.2s;
 }
